@@ -1,6 +1,6 @@
 require 'calculator'
 
-describe Calculator, "Sobre a Caluculadora" do
+describe Calculator, "Sobre a Calculadora" do
 
   context "#div" do
     it "divide by 0" do
