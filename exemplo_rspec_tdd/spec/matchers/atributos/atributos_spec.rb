@@ -18,6 +18,15 @@ describe 'Atributos' do
 #    puts ">>>>>>> Depois de TODOS os testes"
 #  end
 
+  around(:each) do |teste|
+    puts "ANTES"
+    @pessoa = Pessoa.new
+
+    teste.run # roda o teste
+
+    @pessoa.nome = "Sem nome!"
+    puts "DEPOIS >>>>>> #{@pessoa.inspect}"
+  end
 
   before(:each) do
     puts "ANTES"
