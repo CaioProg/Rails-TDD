@@ -2,13 +2,13 @@ require 'pessoa'
 
 describe 'Atributos' do
 
- # before(:suite) do
- #   puts ">>>>>>> Antes de TODA a suíte de teste"
- # end
+  before(:suite) do
+    puts ">>>>>>> Antes de TODA a suíte de teste"
+  end
   
- # after(:suite) do
- #   puts ">>>>>>> Depois de TODA a suíte de teste"
- # end
+  after(:suite) do
+    puts ">>>>>>> Depois de TODA a suíte de teste"
+  end
 
  # before(:context) do
  # puts ">>>>>>> Antes de TODOS os testes"
