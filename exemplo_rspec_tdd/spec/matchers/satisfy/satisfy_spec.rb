@@ -5,5 +5,5 @@ describe 'satisfy' do
     expect(9).to satisfy('be a multiple of 3') do |x|
          x % 3 == 0  
       end
-     }
+    }
 end
