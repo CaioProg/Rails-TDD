@@ -6,4 +6,13 @@ class Student
         # course.complete?
     end
     
+    def foo(arg)
+        ####
+    end
+
+    def bar
+        ###
+    end
+    
+    
 end
