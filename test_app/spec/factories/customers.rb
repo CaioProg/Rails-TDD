@@ -6,9 +6,10 @@ FactoryBot.define do
       qtt_orders 3
     end
 
-    name { Faker::Name.name } 
-    #email { Faker::Internet.email }
+    name { Faker::Name.name }     
+    address { Faker::Address.street_address }
 
+    #email { Faker::Internet.email }
     sequence(:email) { |n| "Meu_email-#{n}@gmail.com" }
 
     trait :male do
