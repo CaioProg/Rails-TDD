@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://jsonplaceholder.typicode.com/posts/2
+    uri: "<API-URL>/posts/2"
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 16 Sep 2021 11:36:34 GMT
+      - Thu, 16 Sep 2021 11:55:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -51,17 +51,19 @@ http_interactions:
       Via:
       - 1.1 vegur
       Cf-Cache-Status:
-      - REVALIDATED
+      - HIT
+      Age:
+      - '1130'
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=olj9HW74FU49Lye9O9Weg9CsC9UO%2F3NiL5W5GZ3Yy8GYhh6C5cUX6qkVm9iCvl2F%2BKqyQA9kU1kq5OUxhcvejtWPjccJOSfVNLUTMtjHLK1jOdyX65J55wxKVO9ZWFEeGpDbYd2zB%2FuYp1LyGU2lBYFUsRk6gMe0xwZf"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FYzO74The3p11akJuZZp9c4oEl%2FLFcUnI%2BkIaRubNrFwHl4ZW8lYNcLn58pVfq4vAhGpWXD4XtfZFnsIKOTN4QSZeeu%2FMTi0yDeZZM093f73CpWuc8XMfu0Tzauo8hprWuuS%2FSjHT98SSK2uIGlXhU9pZqJs4Qmv6PUx"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 68f9cc3bda5309e0-GIG
+      - 68f9e7d69fe02596-GIG
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
@@ -74,5 +76,5 @@ http_interactions:
           "title": "qui est esse",
           "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
         }
-  recorded_at: Thu, 16 Sep 2021 11:36:34 GMT
+  recorded_at: Thu, 16 Sep 2021 11:55:24 GMT
 recorded_with: VCR 6.0.0
